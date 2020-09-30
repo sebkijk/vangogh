@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+         <style>
+        .image-container {
+            text-align: center;
+            display: block;
+        }
+        
+    </style>
+          <!-- CSS only -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <!-- jQuery Library -->
+    <script src="https://ajax.googleapis.com/ajax/libs.jquery/3.2.1/jquery.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <header>
+         <div class="image-container"> 
+         <img src="image/logo-2.png" alt="logo" />
+     </div>
+      <div class="container">
+          <div class="row">
+              <nav>
+                  <ul>
+                      <li><a href="index.html"> Home </a></li>
+                      <li><a href="films.html"> Films </a></li>
+                      <li><a href="contact.html"> Contact </a></li>
+                      <li><a href="review.html">Review</a></li>
+                  </ul>
+    
+              </nav>
+          </div>
+      </div>
+  </header> 
+   <section>
+       <h1>Contact Me</h1>
+        <p>
+              If you have any questions or feedback about your museum visit or tickets you purchased, please get in touch.<br> </p>
+              
+              <h3>Contact Details</h3><br>
+              <p>
+              For general information about the museum, the collection, our events programme and other activities:<br>
+              E-mail: info@vangoghmuseum.nl <br>
+              Phone: (020) 570 52 00 <br>
+              Postal address:
+              Van Gogh Museum
+              P.O. Box 75366
+              1070 AJ Amsterdam
+              The Netherlands.<br>
+              Chamber of Commerce registration number: 41213987
+              VAT: NL803117851B01
+
+             
+          </p> 
+          
+          <style>
+             p { 
+                  color: black;
+                  text-indent: 30px;
+                  text-transform: uppercase;
+                  text-align: center;
+                  font-family: monospace;
+              
+              }
+                  
+              h1 {
+                  color: darkorange;
+                  text-align: center;
+                  text-transform: uppercase;
+                  font-family: fantasy;
+              }
+              
+              h3 {
+                  color: darkorange;
+                  text-align: center;
+                  text-transform: uppercase;
+                  font-family: fantasy;
+              }
+    
+          </style>
+        
+        </section>
+        <div class="container">
+            <form action="action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="The Netherlands">The Netherlands</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                </select>
+                
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height: 200px"></textarea>
+                
+                <input type="sumbit" value="Submit">
+            </form>
+        </div>
+        <a href="index.html">Home</a>
+    </body>
+</html>
